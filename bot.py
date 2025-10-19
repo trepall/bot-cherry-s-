@@ -31,7 +31,7 @@ async def start(message: types.Message):
     )
 
     await message.answer_photo(
-        photo="photo="https://i.ibb.co/xqhv5QHX/IMG-7504.jpg",
+        photo="photo="photo="https://raw.githubusercontent.com/trepall/bot-cherry-s-/main/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20PNG.png",
         caption=text,
         reply_markup=kb.as_markup(),
         parse_mode="Markdown"
