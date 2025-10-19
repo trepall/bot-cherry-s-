@@ -31,7 +31,7 @@ async def start(message: types.Message):
     )
 
     await message.answer_photo(
-        photo="https://i.ibb.co/CKBd0F2m/image.jpg",
+        photo="photo="https://i.ibb.co/xqhv5QHX/IMG-7504.jpg",
         caption=text,
         reply_markup=kb.as_markup(),
         parse_mode="Markdown"
